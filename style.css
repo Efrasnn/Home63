@@ -58,6 +58,8 @@ background-color:#000000 ;
   padding: 15px 0px ;
   font-size: 18px;
   position: relative;
+  font-family: 'Poppins';
+  font-weight: 400px;
 }
 
 .header-menu a:after {
@@ -139,6 +141,9 @@ width: 100%;
 margin-bottom: 32px;
 font-size: 64px;
 line-height: 1.125;
+font-family: 'Poppins';
+font-weight: 600px;
+
 }
 
 .introducao P {
@@ -146,6 +151,8 @@ line-height: 1.125;
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: 'roboto';
+  font-weight: 400;
 }
 
 .introducao-conteudo span {
@@ -160,11 +167,60 @@ line-height: 1.125;
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
   text-transform: uppercase;
   line-height: 1.33;
-  font-weight: bold;
+  font-family: 'Poppins';
+  font-weight: 600px;
 
 }
 
 .introducao a:hover {
   background: linear-gradient(#2320da, #10126e);
 }
+
+@media (max-width:600px) {
+  .introducao a {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
+
+ @media (max-width:1200px){
+  .introducao h1 {
+    font-size: 48px;
+  }
+  .introducao p {
+    font-size: 18px;
+  }
+ }
+
+ @media (max-width:800px){
+  .introducao-home{
+    background-color: #111111;
+    padding-top: 40px;
+    box-shadow: inset 0 -60 #ffffff;
+   
+  }
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+   .introducao{
+    grid-template-columns: 1fr;
+    gap: 32px;
+
+   }@media (max-width:1200px){
+    .introducao h1 {
+      font-size: 48px;
+    }
+   }
+  .introducao h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+ .introducao img {
+  height: 300px;
+  width: 100%;
+  }
+ 
+}
+
+
 
