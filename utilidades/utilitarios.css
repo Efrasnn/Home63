@@ -1,0 +1,34 @@
+
+.container {
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.botao {
+  display:inline-block;
+  background: linear-gradient(#2320da, #2022c1);
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-transform: uppercase;
+  line-height: 1.33;
+  font-family: 'Poppins';
+  font-weight: 600px;
+
+}
+
+.botao:hover {
+  background: linear-gradient(#2320da, #10126e);
+}
+
+@media (max-width:600px) {
+  .botao {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
+
