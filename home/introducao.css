@@ -34,10 +34,6 @@ margin-bottom: 32px;
   line-height: 1.5;
 }
 
-.introducao-conteudo span {
-  color: #2320da;
-}
-
  @media (max-width:1200px){
   .introducao h1 {
     font-size: 48px;

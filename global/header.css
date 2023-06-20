@@ -80,6 +80,12 @@
       display: grid;
       width: 400px;
     }
+    .logo-header {
+      margin-bottom: 30px;
+    }
+    .header-menu {
+      margin-bottom: 15px;
+    }
   }
   
   

@@ -10,7 +10,7 @@
 
 .botao {
   display:inline-block;
-  background: linear-gradient(#2320da, #2022c1);
+  background: linear-gradient(#b2b2b2, #404040);
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
@@ -22,7 +22,7 @@
 }
 
 .botao:hover {
-  background: linear-gradient(#2320da, #10126e);
+  background: linear-gradient(#404040, #b2b2b2);
 }
 
 @media (max-width:600px) {
