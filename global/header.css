@@ -12,6 +12,10 @@
    padding: 20px;
     
   }
+
+  .logo-header {
+    height: 40px;
+  }
   
   .header-menu {
     display: flex ;
@@ -64,12 +68,17 @@
     .header a::after{
       display: none;
     }
+    
   }
   
   
   @media (max-width:600px) {
     .header-menu{
       gap: 12px;
+    }
+    .header img {
+      display: grid;
+      width: 400px;
     }
   }
   
