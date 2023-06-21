@@ -52,9 +52,6 @@
     grid-template-columns: 1fr;
     justify-self: center;
   }
-  .depoimento img {
-    max-width: 800px;
-  }
   .depoimento-conteudo {
     padding:30px 40px ;
     text-align: center;
@@ -62,3 +59,17 @@
 
 }
 
+
+@media (max-width:600px) {
+.depoimento-conteudo p {
+  font-size: 25px;
+}  
+
+}
+
+@media (max-width:400px) {
+  .depoimento-conteudo p {
+    font-size: 20px;
+  }  
+  
+  }
