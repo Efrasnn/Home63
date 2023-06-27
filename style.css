@@ -1,19 +1,20 @@
-@import url(./global/global.css);
+@import url(./css/global/global.css);
 @import url(./utilidades/cores.css);
-@import url(./global/header.css);
+@import url(./css/global/header.css);
 @import url(./utilidades/tipografia.css);
-@import url(./global/foot.css);
+@import url(./css/global/foot.css);
 
 
 /* home*/
-@import url(./home/introducao.css);
-@import url(./home/tecnologia.css);
-@import url(./home/parceiros.css);
-@import url(./home/depoimento.css);
+@import url(./css/home/introducao.css);
+@import url(./css/home/tecnologia.css);
+@import url(./css/home/parceiros.css);
+@import url(./css/home/depoimento.css);
 /*Utilitarios*/
 @import url(./utilidades/utilitarios.css);
 
 /* Estande*/
 
-@import url(./estande/estande-lista.css);
+@import url(./css/estande/estande-lista.css);
 
+@import url(./css/termos/termos.css);
