@@ -18,6 +18,8 @@
   line-height: 1.33;
   font-family: 'Poppins';
   font-weight: 600px;
+  border: none;
+  cursor: pointer;
 
 }
 
@@ -73,3 +75,11 @@
   }
 }
 
+@media (max-width:600px) {
+  .form {
+    grid-template-columns: fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}

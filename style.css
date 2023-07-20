@@ -17,9 +17,16 @@
 
 @import url(./css/estande/estande-lista.css);
 
+/*termos*/
 @import url(./css/termos/termos.css);
 
 /*bicicletas*/ 
 
 @import url(./bicicletas/bicicleta.css);
 @import url(./css/bicicletas.css);
+
+/*Contato*/
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
+
+@import url(./utilidades/formulario.css);
